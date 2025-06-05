@@ -1,0 +1,6 @@
+.venv/
+runs-cherries/
+*.pt
+*.onnx
+Cherry_CO/
+Cherry_CO2/        
