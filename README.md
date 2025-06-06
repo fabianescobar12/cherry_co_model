@@ -22,7 +22,7 @@ Para solicitar recursos y ejecutar un proceso con SLURM, primero debes crear un 
 #SBATCH --mail-user=correo@uoh.cl   # Dirección de correo para recibir notificaciones
 
 # Ejecutar el proceso dentro del contenedor Singularity
-singularity exec --nv my_container.sif python3 ../test_2.py´´´
+singularity exec --nv my_container.sif python3 ../test_2.py
 
 
 ## Con esto ya podemos virtualizar el entrenamiento del modelo
