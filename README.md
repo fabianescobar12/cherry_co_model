@@ -2,9 +2,7 @@
 
 Este documento explica cómo crear un archivo de script `.sh` para solicitar recursos de un clúster de computación utilizando SLURM, y cómo ejecutar un proceso dentro de un contenedor Singularity con soporte para GPU.
 
-## Requisitos previos
 
-Antes de proceder, asegúrate de tener acceso al clúster donde se ejecutan trabajos con SLURM y tener el contenedor Singularity listo para usar. También necesitarás un script Python o cualquier otro proceso que quieras ejecutar en el contenedor.
 
 ## 1. Creación del archivo `.sh`
 
@@ -27,4 +25,4 @@ Para solicitar recursos y ejecutar un proceso con SLURM, primero debes crear un 
 singularity exec --nv my_container.sif python3 ../test_2.py
 
 
-# Con esto ya podemos virtualizar el entrenamiento del modelo
+## Con esto ya podemos virtualizar el entrenamiento del modelo
